@@ -1,1 +1,1 @@
-<h1 align="center"> Gofinances </h1>
+<h1 align="center"> Go Finances </h1>
