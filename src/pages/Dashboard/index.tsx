@@ -1,15 +1,15 @@
 import React from 'react'
 import {
-  Container,
-  Title,
+  Text
+} from 'react-native'
+import {
+  Container
 } from './styles'
 
 export function Dashboard() {
   return (
     <Container>
-      <Title>
-        Dashboard
-      </Title>
+      <Text>Dashboard</Text>
     </Container>
   )
 }
