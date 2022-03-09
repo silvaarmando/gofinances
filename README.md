@@ -18,7 +18,7 @@
   align="center"
 >
   <img
-    width="550em"
+    width="750em"
     alt="Capa Gofinances Application"
     src="./screens/Capa.svg"
   />
