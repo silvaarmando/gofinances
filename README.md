@@ -11,5 +11,15 @@
 <h3
     align="center"
 >
-  Aplicação Academica criada na Rocketseat Ignite
+  Academic app for financial management built on Rocketseat Ignite
+</h3>
+
+<h3
+  align="center"
+>
+  <img
+    width="550em"
+    alt="Capa Gofinances Application"
+    src="./screens/Capa.svg"
+  />
 </h3>
