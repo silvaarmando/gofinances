@@ -6,6 +6,7 @@ import {
 import {
   RFPercentage, RFValue
 } from 'react-native-responsive-fontsize'
+import { getStatusBarHeight } from 'react-native-iphone-x-helper'
 
 export const Container = styled.View`
   background-color: ${({ theme }) => theme.colors.background};
@@ -17,6 +18,9 @@ export const Header = styled.View`
   height: ${RFPercentage(42)}px;
 
   background-color: ${({ theme }) => theme.colors.primary};
+  flex-direction: row;
+  align-items: flex-start;
+
 `
 
 export const UserWrapper = styled.View`
@@ -27,6 +31,7 @@ export const UserWrapper = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: ${getStatusBarHeight() + RFValue(28)}px;
 `;
 
 export const UserInfo = styled.View`
@@ -69,4 +74,8 @@ export const HighlightCards = styled.ScrollView.attrs({
   showsHorizontalScrollIndicator: true,
   contentContainerStyle: { paddingHorizontal: 24 },
 })`
+  width: 100%;
+
+  position: absolute;
+  margin-top: ${RFPercentage}
 `;
