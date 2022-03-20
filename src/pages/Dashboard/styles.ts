@@ -9,7 +9,7 @@ import {
 import { getStatusBarHeight } from 'react-native-iphone-x-helper'
 
 export const Container = styled.View`
-  background-color: ${({ theme }) => theme.colors.background};
+  background-color: ${({ theme }) => theme.colors.text_dark};
 `
 
 export const Header = styled.View`
@@ -71,11 +71,11 @@ export const Icon = styled(Feather)`
 
 export const HighlightCards = styled.ScrollView.attrs({
   horizontal: true,
-  showsHorizontalScrollIndicator: true,
+  showsHorizontalScrollIndicator: false,
   contentContainerStyle: { paddingHorizontal: 24 },
 })`
   width: 100%;
 
   position: absolute;
-  margin-top: ${RFPercentage}
+  margin-top: ${RFPercentage(24)}px;
 `;
