@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from '../HighlightCard/styles';
 
 import {
   Container,
