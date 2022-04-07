@@ -23,3 +23,55 @@
     src="./screens/Capa.svg"
   />
 </h3>
+
+<p
+  align="center"
+>
+  <a
+    href="#building-the-project"
+  >
+    Building the project
+  </a>&nbsp;&nbsp;&nbsp;
+  <a
+    href="#screens"
+  >
+    Screens
+  </a>&nbsp;&nbsp;&nbsp;
+  <a
+    href="#Layout"
+  >
+    Layout
+  </a>&nbsp;&nbsp;&nbsp;
+  <a
+    href="#Technologies"
+  >
+  Technologies
+  </a>&nbsp;&nbsp;&nbsp;
+  <a
+    href="#About-me"
+  >
+  About me
+  </a>
+</p>
+
+<br/>
+
+## BUILDING THE PROJECT
+
+<br />
+
+## SCREENS
+
+<br />
+
+## LAYOUT
+
+<br />
+
+## TECHNOLOGIES
+
+<br />
+
+## ABOUT ME
+
+<br />
